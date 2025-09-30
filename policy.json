@@ -1,0 +1,12 @@
+{
+  "ImageRepository": {
+    "ImageIdentifier": "451658920213.dkr.ecr.us-west-2.amazonaws.com/jira-flow-metrics:latest",
+    "ImageRepositoryType": "ECR",
+    "ImageConfiguration": {
+      "Port": "8501"
+    }
+  },
+  "AuthenticationConfiguration": {
+    "AccessRoleArn": "arn:aws:iam::451658920213:role/OneCloud/CustomAppRunnerECRAccessRole"
+  }
+}
